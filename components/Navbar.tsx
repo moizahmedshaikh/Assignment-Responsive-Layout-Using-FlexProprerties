@@ -25,7 +25,7 @@ const Navbar = ({ openNav }: Props) => {
         </div>
         <HiBars3BottomLeft
           onClick={openNav}
-          className="w-8 h-8 lg:hidden text-white"
+          className="w-8 h-8 lg:hidden text-black"
         />
       </nav>
     </header>
