@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .nav_links {
+    @apply text-base font-semibold relative block after:block after:absolute after:content-[""] after:bg-red-500 after:w-full after:scale-x-0 after:hover:scale-x-100 after:h-[3px] after:transition-all after:duration-300 after:origin-left;
+  }
+}
